@@ -1,0 +1,50 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f4f4f7;
+  margin: 0;
+  padding: 20px;
+}
+
+.investment-options {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: calc(33.333% - 20px);
+  box-sizing: border-box;
+}
+
+.card h2 {
+  color: #333;
+}
+
+.card p {
+  color: #666;
+}
+
+button {
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #004494;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .card {
+    width: 100%;
+  }
+}
